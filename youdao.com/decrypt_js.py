@@ -116,6 +116,9 @@ class YoudaoFanyi(object):
 
 
 if __name__ == '__main__':
-    word = input("Please enter the word you want to translate:")
-    youdao = YoudaoFanyi(word)
-    youdao.main()
+    while True:
+        word = input("Please enter the word you want to translate:")
+        if word == 'quit':
+            break
+        youdao = YoudaoFanyi(word)
+        youdao.main()
