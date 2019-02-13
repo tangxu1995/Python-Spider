@@ -83,14 +83,16 @@ class lagouSpider():
 
     def start_spider(self):
         html = self.get_page_source(self.url)
-        print(html)
-        positionInfos = self.get_job(html)
-        for positionInfo in positionInfos:
-            print(positionInfo)
-            self.save_to_txtfile(str(positionInfo) + '\n')
-            self.save_to_mongodb(positionInfo)
-            self.save_to_mysql(positionInfo)
-            self.mysql_db.close()
+        if 'false' in html:
+            print('操作频繁，请稍后再试')
+        else:
+            positionInfos = self.get_job(html)
+            for positionInfo in positionInfos:
+                print(positionInfo)
+                self.save_to_txtfile(str(positionInfo) + '\n')
+                self.save_to_mongodb(positionInfo)
+                self.save_to_mysql(positionInfo)
+                self.mysql_db.close()
 
 
 if __name__ == '__main__':
