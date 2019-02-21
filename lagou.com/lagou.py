@@ -21,8 +21,8 @@ class lagouSpider():
             'X-Anit-Forge-Code': '0',
             'X-Anit-Forge-Token': 'None',
             'X-Requested-With': 'XMLHttpRequest',
-            'Cookie': 'JSESSIONID=ABAAABAAADEAAFI39E78145601C723EFA8A12C7BB285445; _ga=GA1.2.1028451105.1550040382; _gid=GA1.2.448435563.1550040382; user_trace_token=20190213144622-134f0285-2f5b-11e9-8188-5254005c3644; LGUID=20190213144622-134f0653-2f5b-11e9-8188-5254005c3644; index_location_city=%E5%8C%97%E4%BA%AC; LG_LOGIN_USER_ID=8eac5f0f1324bf2dcaecb843477a4b2d030039875eedfb7f; _putrc=411996842906BB54; login=true; unick=%E5%94%90%E6%97%AD; showExpriedIndex=1; showExpriedCompanyHome=1; showExpriedMyPublish=1; gate_login_token=85f290ea41114cc3addbfc9a11238f284cf80e822b6429f2; Hm_lvt_4233e74dff0ae5bd0a3d81c6ccf756e6=1550040383,1550041495; hasDeliver=10; TG-TRACK-CODE=search_code; LGSID=20190213160334-dc7adf9c-2f65-11e9-818c-5254005c3644; PRE_UTM=; PRE_HOST=; PRE_SITE=; PRE_LAND=https%3A%2F%2Fwww.lagou.com%2Fjobs%2Flist_python%3Fpx%3Ddefault%26city%3D%25E5%258C%2597%25E4%25BA%25AC; X_MIDDLE_TOKEN=f6557e08b0ecf168a98c40d8a415fc52; _gat=1; Hm_lpvt_4233e74dff0ae5bd0a3d81c6ccf756e6=1550045097; LGRID=20190213160456-0d5dcbec-2f66-11e9-b6af-525400f775ce; SEARCH_ID=4877253727aa4197bc1ab82e29218289'
-        }
+            'Cookie': 'user_trace_token=20181118002836-d55c7fff-ea85-11e8-a4f0-525400f775ce; LGUID=20181118002836-d55c8300-ea85-11e8-a4f0-525400f775ce; _ga=GA1.2.1412687184.1542636851; JSESSIONID=ABAAABAAAGGABCB85A160586B658EB4FFB432825E6D3960; LG_LOGIN_USER_ID=d432d55bcc9f26ff031dd3346b005e8c1c5812912f4180e0; _putrc=411996842906BB54; login=true; unick=%E5%94%90%E6%97%AD; TG-TRACK-CODE=index_resume; _gat=1; LGSID=20190220020618-0e2d5bee-3471-11e9-827b-5254005c3644; PRE_UTM=; PRE_HOST=www.baidu.com; PRE_SITE=https%3A%2F%2Fwww.baidu.com%2Flink%3Furl%3D33r_f-2Pn0pAQtEHEmVDIn4NgUXPfggvCEw7sXf8_5y%26wd%3D%26eqid%3D9f38c4220000562b000000035c6c4595; PRE_LAND=https%3A%2F%2Fwww.lagou.com%2F; LGRID=20190220020618-0e2d5dc2-3471-11e9-827b-5254005c3644; index_location_city=%E5%8C%97%E4%BA%AC'
+            }
 
         self.params = {
             'first': 'true',
